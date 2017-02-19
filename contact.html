@@ -20,23 +20,28 @@
 		</ul>
 	</nav>
 </header>
-
+<!--This is the outline that extends almost the width of the page. It holds my container and defines (right word?) my header and footer. I was unlable to get the margin-right to work in the CSS for this section, so I set the width at 98%. Why would the MR not respond?-->
 <div class="outline">
-<div class="container">
+
+<!--below is my container div. It holds my content section, or article, and my sidebar.-->
+	<div class="container">
+	<!--below is my "content" section defined by the article.-->
 	<article id="content">
+	<!-- below is the contact form I created for this page. It has a name and email input bar that contains prewritten text in the value. Their fonts are also changed in CSS-->
 		<div id="contact">
 	<h2 style=>Contact</h2>
 	<p id="split"><strong>_________________________________________________________</strong></p>
 		<form> 
-		Name <br>
-		<input type="text" name="wholename" value="John Smith" style="color:gray"><br>
-		Email<br>
-		<input type="text" name="email" value="example@gmail.com" style="color:gray"><br>
+			Name <br>
+			<input type="text" name="wholename" value="John Smith" style="color:gray"><br>
+		Email <br>
+			<input type="text" name="email" value="example@gmail.com" style="color:gray"><br>
 		Message
-		<br>
+			<br>
 		<textarea rows="10" col="10"></textarea>
 		</form>
-		<button>Submit</button>
+	<!--Below is th button to submit the form after filling it out. IT is styilzed using CSS.-->
+			<button>Submit</button>
 		</div>
 	</article>
 
